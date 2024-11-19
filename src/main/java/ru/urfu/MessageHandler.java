@@ -6,8 +6,8 @@ package ru.urfu;
 public class MessageHandler {
     /**
      * Возвращает сообщение пользователя с подписью "Ваше сообщение: " в начале
-     * @param message
-     * @return
+     * @param message текст сообщения пользователя
+     * @return сообщение пользователя с подписью "Ваше сообщение: " в начале
      */
     public String handleMessage(String message) {
         return String.format("Ваше сообщение: '%s'", message);
